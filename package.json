@@ -3,7 +3,8 @@
         "test": "mocha"
     },
     "dependencies": {
-        "chai": "*",
+        "chai": "^4.2.0",
+        "mocha": "^5.2.0",
         "xmlhttprequest": "^1.8.0"
     }
 }
