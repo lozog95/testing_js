@@ -21,6 +21,10 @@ describe('Simple tests on numbers module', function () {
   it('should return addition result correctly add(2,3) == 5 using chai should', function () {
     numbers.add(2,3).should.equal(5);
   });
+  
+  it('should return addition result correctly add(2,-5) == -3 using chai should', function () {
+    numbers.add(2,-5).should.equal(-3);
+  });
 
   it('should return addition result correctly sub(-10,-17) == 7 using core assert', function () {
     assert.equal(numbers.sub(-10,-17), 7);
