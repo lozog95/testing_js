@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "test": "mocha"
+        "test": "mocha -R xunit | grep '<' > mocha.xml"
     },
     "dependencies": {
         "chai": "^4.2.0",
