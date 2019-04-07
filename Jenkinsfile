@@ -14,6 +14,7 @@ pipeline {
     stage('test') {
       steps {
         sh 'npm test'
+        junit(testResults: 'mocha.xml', allowEmptyResults: true)
       }
     }
   }
